@@ -7,7 +7,6 @@ class UserRepository {
     };
 
     async findUser(account: string) {
-        console.log(account);
         return User.findOne({account: account});
     }
 

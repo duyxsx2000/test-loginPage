@@ -1,0 +1,106 @@
+.Login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d8d8d8;
+    
+}
+.login-form {
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    background: #ffffff;
+    border-radius: 5px;
+
+}
+
+.login-input {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input>label {
+    width: 100%;
+    text-align: start;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.login-input>input {
+    margin-top: 5px;
+    padding: 8px;
+    background: #eae8e8;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: full;
+    border-bottom: 2px solid rgb(150, 150, 150);
+}
+.errorInput {
+    border: 2px solid red;
+}
+.login-input-password {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    background: #eae8e8;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: full;
+    border-bottom: 2px solid rgb(150, 150, 150);
+}
+.login-input-password>input {
+
+    width: 80%;
+    padding: 8px;
+    background: #eae8e8;
+    border: none;
+    outline: none;
+    width: full;
+    
+}
+
+.login-input-password>span {
+    width: 10%;
+
+  justify-content: center;
+  align-items: center;
+}
+.submit-unValidation {
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    font-weight: 600;
+    background: #a1a1a1;
+    border-radius: 5px;
+}
+.submit-validation {
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    font-weight: 600;
+    color: white;
+    background: #3c70d9;
+}
+.submitValidation:hover {
+    background: #1343a2;
+}
+
+.another-login {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.another-login>button {
+   margin-left: 5px;
+   color: rgb(63, 63, 228);
+   font-size: 18px;
+   border: rgb(153, 151, 151);
+}
